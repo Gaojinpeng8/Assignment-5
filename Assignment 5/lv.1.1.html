@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    #main{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        background-color: aqua;
+    }
+   
+    #less{
+        display:flex;
+        justify-content: space-around;
+    }
+    .haha{
+        display: flex;
+        align-items: center;
+        background-color: bisque;
+        height: 300px;
+        width: 200px;
+        font-size: 30px;
+    }
+    #wawa{
+        display: flex;
+        justify-content: flex-start;
+        height: 100px;
+        background-color: chartreuse;
+    }
+    #wawa2{
+        margin:auto;
+        font-size: 50px;
+    }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div>
+        <h1 id="hehe">我是一个简单的页面</h1>
+        <input type="button" value="换皮肤" onclick="background()"/>
+        <input type="button" value="字体大" onclick="change('fontSize','50px','60px','40px')">
+        <input type="button" value="字体中" onclick="change('fontSize','40px','50px','30px')">
+        <input type="button" value="字体小" onclick="change('fontSize','30px','40px','20px')">
+         </div>
+        <div id="wawa">
+            <div id="wawa2">
+                <div id="head">JavaScript基础</div>
+            </div>
+        </div>
+        <div id="less">
+            <div class="haha">
+                <p >壹壹壹壹</p>
+            </div>
+            <div class="haha">
+                <p>贰贰贰贰</p>
+            </div>
+            <div class="haha">
+                <p>叁叁叁叁</p>
+            </div>
+            <div class="haha">
+                <p>肆肆肆肆</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="lv1.1.js"></script>
+</body>
+</html>
