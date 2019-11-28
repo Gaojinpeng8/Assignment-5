@@ -1,3 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    #main{
+        background-color: rgb(161, 56, 56);
+        height: 500px;
+    }
+    #head{
+        background-color: aqua;
+    }
+    </style>
+</head>
+<body>
+    <div id="main">
+         <div id="head">搜索框</div>
+         <div>
+             <input id="content" type="text">
+             <input id="search" type="button" value="搜索">
+         </div>
+         <div id="kuang"></div>
+    </div>
+     <script src="lv1.js"></script>
+</body>
+</html>
 function ajax(url,fnSucc,fnFaild)
 {
     if(window.XMLHttpRequest)
@@ -26,7 +55,11 @@ function ajax(url,fnSucc,fnFaild)
         }
     }
 }
-  
+
+
+
+
+  //js
 window.onload=function(){
     var btu=document.getElementById('search');
 
